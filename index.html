@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asserts/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>POS System</title>
+</head>
+<body>
+    <script src="asserts/js/bootstrap.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <!-- <label for="navbar" >POS System</label> -->
+          
+          <a class="navbar-brand" href="#">POS System</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto my-3 mb-3 mb-lg-3" >
+                <li class="mx-4 nav-item">
+                    <a class=" nav-link active" aria-current="page" href="#">Dashboard</a>
+                  </li>
+              <li class="mx-4 nav-item">
+                <a class=" nav-link active" aria-current="page" href="#">Customer</a>
+              </li>
+              <li class="mx-4 nav-item">
+                <a class="nav-link active" aria-current="page" href="item.html">Item</a>
+              </li>
+              <li class="mx-4 nav-item">
+                <a class="nav-link active" aria-current="page" href="order.html">Order</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" >
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+              
+            </form>
+        </div>
+      </div>
+    </nav>
+    
+<!-- ************nav close*************** -->
+<!-- <div class="mb-4">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-4">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div> -->
+
+  <section id="customer-form" class="mb-lg-5 container-fluid">
+    <section class="row">
+        <div class="col-5">
+    
+            <form action="" >
+                <div class=" mt-5 mx-5 shadow-sm">
+                <label for="CustomerID" class="form-label">Customer ID</label>
+                <input type="text" class="form-control" id="CustomerID">
+              </div>
+              <div class=" mt-5 mx-5 shadow-sm">
+                <label for="CustomerName" class="form-label">Customer Name</label>
+                <input type="text" class="form-control" id="CustomerName">
+              </div>
+              <div class=" mt-5 mx-5 shadow-sm">
+                <label for="CustomerAddress" class="form-label">Customer Address</label>
+                <input type="text" class="form-control" id="CustomerAddress">
+              </div>
+              <div class="mb-5 mt-5 mx-5 shadow-sm">
+                <label for="Salary" class="form-label">Salary</label>
+                <input type="text" class="form-control" id="Salary">
+              </div>
+            <div id="bt" class="container-fluid d-flex justify-content-around"  >
+              <button class=" btn btn-success" type="button">Save Customer</button>
+              <button class="btn btn-warning" type="button">Update Customer</button>
+              <button class=" btn btn-danger" type="button">Delete Customer</button>
+            </div>
+    
+            </form>
+    
+    
+    
+        </div>
+        <div class="col-7">
+            
+            <table class="table table-hover mt-5 ">
+                <thead class="bg-primary text-white">
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Customer Name</th>
+                        <th>Customer Address</th>
+                        <th>Customer Salary</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>C001</td>
+                            <td>Praneeth</td>
+                            <td>Ambalangoda</td>
+                            <td>85000.00</td>
+                        </tr>
+                        <tr>
+                            <td>C002</td>
+                            <td>Raveesha</td>
+                            <td>Weeragoda</td>
+                            <td>75000.00</td>
+                        </tr>
+                        <tr>
+                            <td>C003</td>
+                            <td>Anjana</td>
+                            <td>Meetiyagoda</td>
+                            <td>70000.00</td>
+                        </tr>
+                        <tr>
+                            <td>C004</td>
+                            <td>tashen</td>
+                            <td>Weeragoda</td>
+                            <td>75000.00</td>
+                        </tr>
+                        <tr>
+                            <td>C005</td>
+                            <td>Sonal</td>
+                            <td>Ahanagama</td>
+                            <td>90000.00</td>
+                        </tr>
+    
+                    </tbody>
+                </thead>
+            </table>
+    
+        </div>
+    </section>
+  </section>
+
+
+
+
+
+
+
+    
+</body>
+</html>
